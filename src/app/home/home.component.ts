@@ -8,9 +8,12 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+  private urlPrefix = '';
+
   constructor() { }
 
   ngOnInit() {
+    this.urlPrefix = 'ngAdminProcedures';
   }
 
 }
